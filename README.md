@@ -15,10 +15,5 @@
 - CSS3 (Grid布局 + Flex布局)
 - JavaScript (原生)
 
-## 如何运行
 
-直接打开 `index.html` 即可
-
-## 在线预览
-
-[添加你的GitHub Pages链接]
+https://fangxin05.github.io/anime-project/
