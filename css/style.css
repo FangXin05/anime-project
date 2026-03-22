@@ -70,15 +70,17 @@ body {
   background: rgba(102, 126, 234, 0.1);
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.2s;
-  opacity: 0;
+  transition: all 0.2s ease;
+  /*  opacity: 0;
   transform: translateX(-10px);
-  animation: fadeInLeft 0.5s ease forwards;
+  animation: fadeInLeft 0.5s ease forwards; */
 }
 
-.sidebar li:hover {
-  transform: translateX(5px);
+.sidebar li:hover,
+.card:hover {
   background: rgba(102, 126, 234, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes fadeInLeft {
@@ -125,11 +127,6 @@ body {
   background-color: rgba(102, 126, 234, 0.1);
   opacity: 0;
   animation: fadeIn 0.7s ease forwards;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
